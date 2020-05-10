@@ -1,0 +1,20 @@
+{
+  "name": "api-notas-node",
+  "version": "1.0.0",
+  "description": "API REST para gestionar notas",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["api", "notas", "express"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
