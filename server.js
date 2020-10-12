@@ -40,6 +40,10 @@ app.get('/api/notas/:id', (req, res) => {
 });
 
 app.post('/api/notas', (req, res) => {
+    if (!req.body.titulo || !req.body.contenido) {
+        return res.status(400).json({ error: 'Titulo y contenido son requeridos' });
+    }
+
     const notas = leerNotas();
     const nuevaNota = {
         id: notas.length > 0 ? Math.max(...notas.map(n => n.id)) + 1 : 1,
