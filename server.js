@@ -90,6 +90,9 @@ app.delete('/api/notas/:id', (req, res) => {
     res.status(204).send();
 });
 
+// TODO: Add CORS middleware for production
+// TODO: Add rate limiting for API endpoints
+
 app.listen(PORT, () => {
     console.log(`Servidor ejecutandose en http://localhost:${PORT}`);
 });
