@@ -101,5 +101,5 @@ app.delete('/api/notas/:id', (req, res) => {
 // TODO: Add rate limiting for API endpoints
 
 app.listen(PORT, () => {
-    console.log(`Servidor ejecutandose en http://localhost:${PORT}`);
+    console.log(`Servidor ejecutándose en http://localhost:${PORT}`);
 });
