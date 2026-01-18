@@ -1,5 +1,7 @@
 # API de Notas
 
+> 📅 Developed in 2020 | Migrated to GitHub 2025
+
 API REST simple para gestionar notas personales.
 
 ## Tecnologías
